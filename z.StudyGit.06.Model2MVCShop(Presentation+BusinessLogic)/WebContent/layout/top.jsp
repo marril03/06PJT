@@ -4,7 +4,7 @@
 
 <html>
 <head>
-<title>Model2 MVC Shop</title>
+<title>GITHUB Model2 MVC Shop</title>
 
 <link href="/css/left.css" rel="stylesheet" type="text/css">
 
