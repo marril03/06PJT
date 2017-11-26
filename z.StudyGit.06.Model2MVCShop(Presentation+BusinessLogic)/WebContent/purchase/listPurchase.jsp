@@ -133,11 +133,7 @@ function fncGetUserList(currentPage) {
 		<td></td>
 		<td align="left">
 		<c:if test="${purchase.tranCode eq '1'}">
-<<<<<<< HEAD
-		<a href="/updateTranCode.do?tranNo=${purchase.tranNo}&tranCode=2">¹°°ÇµµÂø</a>
-=======
 		<a href="/updateTranCode.do?tranNo=${purchase.tranNo}&TranCode=2">¹°°ÇµµÂø</a>
->>>>>>> refs/heads/test/dev
 		</c:if>
 		</td>	
 		</tr>

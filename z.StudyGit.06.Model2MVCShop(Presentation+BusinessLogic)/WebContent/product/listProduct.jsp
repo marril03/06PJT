@@ -160,8 +160,6 @@
 			<td></td>
 			<td align="left">
 			
-			
->>>>>>> refs/heads/test/dev
 			<c:if test="${param.menu eq 'search'}">
 				<c:if test="${empty product.proTranCode}">
 					<a href="/getProduct.do?prodNo=${product.prodNo}&menu=${param.menu}">${product.prodName}</a>
