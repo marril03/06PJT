@@ -1,4 +1,7 @@
 /com/
+<<<<<<< HEAD
 /config/
 /log4j.properties
+=======
+>>>>>>> refs/heads/test/dev
 /sql/
