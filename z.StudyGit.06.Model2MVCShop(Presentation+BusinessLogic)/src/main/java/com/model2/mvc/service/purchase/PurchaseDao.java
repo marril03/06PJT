@@ -14,13 +14,13 @@ public interface PurchaseDao {
 	
 	public Purchase getPurchase2(int ProdNo) throws Exception;
 	
-	public Map<String, Object> getPurchaseList(Search search, String buyer) throws Exception;
+	public List<Purchase> getPurchaseList(Search search, String buyer) throws Exception;
 	
 	//public List<Purchase> getSaleList(Search search) throws Exception;
 	
 	public void updatePurchase(Purchase purchaseVO) throws Exception;
 	
-	public void updateTranCode(Purchase purchaseVO) throws Exception;
+	public void updateTranCode(Purchase purchase) throws Exception;
 	
 	public int getTotalCount(String buyer) throws Exception ;
 }

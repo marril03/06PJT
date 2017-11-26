@@ -45,7 +45,7 @@
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td width="105">
-					${purchase.prodNo}</td>
+					${purchase.purchaseProd.prodNo}</td>
 					<td></td>
 				</tr>
 			</table>

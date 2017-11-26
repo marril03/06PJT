@@ -104,16 +104,6 @@
 	<tr>
 		<td colspan="11" >
 			전체  ${resultPage.totalCount } 건수, 현재 ${resultPage.currentPage} &nbsp;&nbsp;
-			
-			
-			
-				<a href="javascript:fncGetUserList('1');">
-				<input type = "hidden" name="searchPrice" value="${empty search.searchPrice?"1":""}"><c:if test="${search.searchPrice == 1}">
-																										</c:if>낮은가격순▽</input>
-																										<c:if test="${empty search.searchPrice}">
-																										</c:if>높은 가격순▲</input></a>
-			
-			
 		</td>
 	</tr>
 	
@@ -168,6 +158,8 @@
 			<td align="center">${i}</td>
 			<td></td>
 			<td align="left">
+			
+			
 			<c:if test="${param.menu eq 'search'}">
 				<c:if test="${empty product.proTranCode}">
 					<a href="/getProduct.do?prodNo=${product.prodNo}&menu=${param.menu}">${product.prodName}</a>
